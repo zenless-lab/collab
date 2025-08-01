@@ -1,0 +1,5 @@
+-r requirements.jax.in
+-r requirements.torch.in
+-r requirements.nlp.in
+-r requirements.datascience.in
+-r requirements.cv.in

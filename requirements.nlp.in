@@ -1,0 +1,6 @@
+-r requirements.torch.in
+
+gensim
+spacy
+nltk
+transformers

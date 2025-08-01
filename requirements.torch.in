@@ -1,0 +1,9 @@
+-r requirements.datascience.in
+
+torch
+torchvision
+torchaudio
+einops
+lightning
+cupy-cuda12x
+triton
