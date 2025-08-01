@@ -10,7 +10,7 @@ duckdb
 
 # ML
 scikit-learn
-shap
+# shap
 networkx[default]
 
 # Visualization
