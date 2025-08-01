@@ -144,8 +144,8 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           flavor: |
-            prefix=${{ matrix.target }}-cu${{ matrix.param.cuda }}-
-            suffix=-${{ matrix.param.system }}
+            prefix=${{ matrix.target }}-
+            suffix=-cu${{ matrix.param.cuda }}-${{ matrix.param.system }}
             latest=false
           tags: |
             type=schedule,pattern=nightly
