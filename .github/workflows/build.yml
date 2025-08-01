@@ -122,7 +122,7 @@ jobs:
         param:
           - cuda: 12.6.3
             system: ubuntu24.04
-            base-image-tag: 12.9.1-cudnn-devel-ubuntu24.04
+            base-image-tag: 12.6.3-cudnn-devel-ubuntu24.04
           - cuda: 12.6.3
             system: ubuntu22.04
             base-image-tag: 12.6.3-cudnn-devel-ubuntu22.04
