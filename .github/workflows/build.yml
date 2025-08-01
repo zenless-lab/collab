@@ -144,12 +144,12 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           flavor: |
-            prefix=${{ matrix.target }}-${{ matrix.param.cuda }}-
+            prefix=${{ matrix.target }}-cu${{ matrix.param.cuda }}-
             suffix=-${{ matrix.param.system }}
             latest=false
           tags: |
             type=schedule,pattern=nightly
-            type=raw,value=${{ matrix.target }}-${{ matrix.param.cuda }}-${{ matrix.param.system }},enable={{is_default_branch}},prefix=,suffix=
+            type=raw,value=${{ matrix.target }}-cu${{ matrix.param.cuda }}-${{ matrix.param.system }},enable={{is_default_branch}},prefix=,suffix=
             type=semver,pattern={{version}}
       - name: Build and push Docker image
         id: push
