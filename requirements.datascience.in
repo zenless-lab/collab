@@ -1,0 +1,20 @@
+huggingface_hub[hf_xet,cli]
+datasets
+numpy
+pandas
+scipy
+polars[all]
+dask[complete]
+ray[data,train,tune]
+duckdb
+
+# ML
+scikit-learn
+shap
+networkx[default]
+
+# Visualization
+seaborn[stats]
+bokeh
+altair
+plotnine

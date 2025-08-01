@@ -1,0 +1,8 @@
+-r requirements.datascience.in
+
+jax[cuda12]
+flax[all]
+optax
+einops
+cupy-cuda12x
+triton
