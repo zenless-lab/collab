@@ -59,7 +59,6 @@ cloudpickle==3.1.1
     #   dask
     #   distributed
     #   polars
-    #   shap
 commonmark==0.9.1
     # via great-tables
 confection==0.1.5
@@ -198,8 +197,6 @@ lightning-utilities==0.15.0
     #   lightning
     #   pytorch-lightning
     #   torchmetrics
-llvmlite==0.36.0
-    # via numba
 locket==1.0.0
     # via
     #   distributed
@@ -251,8 +248,6 @@ networkx==3.5
     #   torch
 nltk==3.9.1
     # via -r requirements.nlp.in
-numba==0.53.1
-    # via shap
 numpy==2.3.2
     # via
     #   -r requirements.datascience.in
@@ -267,7 +262,6 @@ numpy==2.3.2
     #   matplotlib
     #   mizani
     #   networkx
-    #   numba
     #   pandas
     #   patsy
     #   plotnine
@@ -276,7 +270,6 @@ numpy==2.3.2
     #   scikit-learn
     #   scipy
     #   seaborn
-    #   shap
     #   spacy
     #   statsmodels
     #   tensorboardx
@@ -337,7 +330,6 @@ packaging==25.0
     #   matplotlib
     #   pytorch-lightning
     #   ray
-    #   shap
     #   spacy
     #   statsmodels
     #   tensorboardx
@@ -359,7 +351,6 @@ pandas==2.3.1
     #   polars
     #   ray
     #   seaborn
-    #   shap
     #   statsmodels
 partd==1.4.2
     # via dask
@@ -470,9 +461,7 @@ rpds-py==0.26.0
 safetensors==0.5.3
     # via transformers
 scikit-learn==1.7.1
-    # via
-    #   -r requirements.datascience.in
-    #   shap
+    # via -r requirements.datascience.in
 scipy==1.16.1
     # via
     #   -r requirements.datascience.in
@@ -482,7 +471,6 @@ scipy==1.16.1
     #   plotnine
     #   scikit-learn
     #   seaborn
-    #   shap
     #   statsmodels
 seaborn==0.13.2
     # via -r requirements.datascience.in
@@ -490,21 +478,16 @@ setuptools==80.9.0
     # via
     #   lightning-utilities
     #   marisa-trie
-    #   numba
     #   spacy
     #   thinc
     #   torch
     #   triton
     #   zope-event
     #   zope-interface
-shap==0.46.0
-    # via -r requirements.datascience.in
 shellingham==1.5.4
     # via typer
 six==1.17.0
     # via python-dateutil
-slicer==0.0.8
-    # via shap
 smart-open==7.3.0.post1
     # via
     #   gensim
@@ -579,7 +562,6 @@ tqdm==4.67.1
     #   lightning
     #   nltk
     #   pytorch-lightning
-    #   shap
     #   spacy
     #   transformers
 transformers==4.54.1
